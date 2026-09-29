@@ -9,9 +9,9 @@ interface
 
 uses
   SysUtils,Classes,contnrs,bufstream,
-  LCLProc,LCLType,LCLIntf,Graphics,LCLVersion,
-  LResources,ComCtrls,
-  PScanner, PParser, PasTree,
+  LazLoggerBase,
+  LCLType,LCLIntf,Graphics,LCLVersion,LResources,ComCtrls,
+  PScanner,PParser,PasTree,
   uDarkStyleParams,uDarkStyleSchemes;
 
 function ParseColors(modulename,module:string;out DSC:TDSColors):Boolean;overload;
