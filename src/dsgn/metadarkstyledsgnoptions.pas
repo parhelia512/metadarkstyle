@@ -7,7 +7,7 @@ interface
 uses
   Classes, SysUtils,
   LazConfigStorage, LazFileUtils, LazFileCache,
-  LCLProc, ComCtrls, Graphics,
+  LazLoggerBase, ComCtrls, Graphics,
   BaseIDEIntf;
 
 const
